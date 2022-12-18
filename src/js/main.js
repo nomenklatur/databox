@@ -18,7 +18,7 @@ const main = async () => {
   try {
     const countries = await axios.get('https://api.covid19api.com/countries');
     countryList.countries = countries;
-    const news = await axios.get(`https://newsapi.org/v2/everything?q=covid-19&from=2022-12-14&apiKey=${process.env.API_KEY}`);
+    const news = await axios.get('https://newsapi.org/v2/everything?q=covid-19&from=2022-12-14&apiKey=a9316753ae1e4c3b9c9d1a2d2d28ff9e');
     newsList.news = news.data.articles;
   } catch (error) {
     console.log(error.message);
