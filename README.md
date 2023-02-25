@@ -10,7 +10,7 @@
 - CSS 3
 - Javascript (ES6)
 - Webpack
-- News API
+- Axios
 
 ## Contact
 Created by [Dimas Eka Putra](https://www.linkedin.com/in/masdimasekaputra/) - feel free to contact me!
